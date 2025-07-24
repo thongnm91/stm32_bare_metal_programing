@@ -187,3 +187,107 @@ java.io.FileNotFoundException: C:\Program Files (x86)\Atollic\TrueSTUDIO for STM
 !MESSAGE Help document /com.atollic.truestudio.pro.arm.doc/welcome/concept2.xhtml cannot be opened.
 !SUBENTRY 1 org.eclipse.help.base 4 4 2025-07-25 00:15:02.076
 !MESSAGE Help document /com.atollic.truestudio.pro.arm.doc/welcome/concept1.xhtml cannot be opened.
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2025-07-25 00:22:14.574
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:795)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Folder contains an active Git repository.
+The folder cannot be moved, renamed or deleted until the team provider is disconnected.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2025-07-25 00:22:14.575
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.egit.core 4 0 2025-07-25 00:22:14.575
+!MESSAGE Folder contains an active Git repository.
+The folder cannot be moved, renamed or deleted until the team provider is disconnected.
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2025-07-25 00:22:29.762
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:795)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Folder contains an active Git repository.
+The folder cannot be moved, renamed or deleted until the team provider is disconnected.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2025-07-25 00:22:29.762
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.egit.core 4 0 2025-07-25 00:22:29.762
+!MESSAGE Folder contains an active Git repository.
+The folder cannot be moved, renamed or deleted until the team provider is disconnected.
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2025-07-25 00:23:07.856
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:795)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Folder contains an active Git repository.
+The folder cannot be moved, renamed or deleted until the team provider is disconnected.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2025-07-25 00:23:07.856
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.egit.core 4 0 2025-07-25 00:23:07.856
+!MESSAGE Folder contains an active Git repository.
+The folder cannot be moved, renamed or deleted until the team provider is disconnected.
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2025-07-25 00:23:59.312
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:795)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Folder contains an active Git repository.
+The folder cannot be moved, renamed or deleted until the team provider is disconnected.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2025-07-25 00:23:59.313
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.egit.core 4 0 2025-07-25 00:23:59.313
+!MESSAGE Folder contains an active Git repository.
+The folder cannot be moved, renamed or deleted until the team provider is disconnected.
